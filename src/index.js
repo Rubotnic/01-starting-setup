@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom/client';
 
 import "bootstrap/dist/css/bootstrap.css"
 
-import DataTable from './studentlist/DataTable';
-// import Test from './test/Test';
+import DataTable from './workshop/DataTable';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<DataTable/>);
+
+
+
+root.render(<DataTable />);
+
